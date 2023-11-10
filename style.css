@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/minimalist.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* 100% de la hauteur de la vue */
+    background-size: cover; /* Couvre toute la page */
+    background-repeat: no-repeat; /* Ne se répète pas */
+    filter: blur(15%); /* Applique un flou à l'image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 50%;
+}
+section{
+    display: flex;
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.operators button{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+}

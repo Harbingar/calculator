@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body>
-  
-</body>
+  <body>
+    <main id="calculator" class="calculator">
+      <aside id="up" class="up">
+        <div id="screen" class="screen">
+          <h1 id="result" class="result"></h1>
+        </div>
+        <div id="reset" class="reset">
+          <button id="restart" class="restart">C</button>
+        </div>
+      </aside>
+      <section id="down" class="down">
+        <div id="numbers" class="numbers">
+          <button id="1" class="1">1</button>
+          <button id="2" class="2">2</button>
+          <button id="3" class="3">3</button>
+          <button id="4" class="4">4</button>
+          <button id="5" class="5">5</button>
+          <button id="6" class="6">6</button>
+          <button id="7" class="7">7</button>
+          <button id="8" class="8">8</button>
+          <button id="9" class="9">9</button>
+          <button id="0" class="0">0</button>
+        </div>
+        <div id="operators" class="operators">
+          <button id="addition" class="addition">+</button>
+          <button id="soustraction" class="soustraction">-</button>
+          <button id="multiplication" class="multiplication">x</button>
+          <button id="division" class="division">:</button>
+        </div>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
